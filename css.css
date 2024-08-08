@@ -1,0 +1,213 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.top > * {
+  padding: 16px;
+}
+.bar > img {
+  width: 20%;
+}
+.top {
+  display: flex;
+  justify-content: end;
+  align-content: end;
+  gap: 18px;
+  font-weight: bolder;
+}
+.midbg {
+  background-color: rgb(222, 255, 255);
+}
+.midd {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  gap: 18px;
+}
+.mids > * {
+  padding: 16px;
+}
+.mids {
+  display: flex;
+  align-content: center;
+  align-items: center;
+  justify-content: space-around;
+  gap: 18px;
+}
+.mid1 {
+  display: flex;
+  align-content: space-between;
+  justify-content: space-between;
+}
+.midbg > * {
+  padding: 16px;
+}
+.mid11 {
+  display: flex;
+  gap: 12px;
+  flex-direction: column;
+  background-color: white;
+  border: 1px solid white;
+  border-radius: 8%;
+  padding-block: 16px;
+  padding-inline: 16px;
+}
+.mid111 {
+  display: flex;
+  gap: 12px;
+  flex-direction: column;
+  background-color: white;
+  border: 1px solid white;
+  border-radius: 8%;
+  padding-block: 16px;
+  padding-inline: 16px;
+}
+.mid12 {
+  display: flex;
+  justify-content: space-around;
+  gap: 18px;
+}
+.bt {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  padding-bottom: 18px;
+  padding-top: 18px;
+}
+.btt {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 18px;
+}
+.pp > p {
+  background-color: rgb(35, 0, 125);
+  width: 48px;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  border-radius: 30%;
+  color: white;
+}
+.fwork > * {
+  padding: 12px;
+  background-color: white;
+}
+.Days {
+  display: flex;
+  gap: 24px;
+  
+}
+.Vibrant {
+  display: flex;
+  gap: 24px;
+  border-bottom: 1px solid slategray;
+  
+}
+.designing {
+  display: flex;
+  gap: 24px;
+  border-bottom: 1px solid slategray;
+}
+button {
+  background-color: orangered;
+  color: white;
+  border: none;
+  width: 24%;
+  padding-block: 8px;
+  border-radius: 8%;
+  font-weight: bold;
+}
+@media (max-width: 900px) {
+  .top {
+    visibility: hidden;
+  }
+  .bar > img {
+    width: 48px;
+  }
+  .bar {
+    display: flex;
+    justify-content: end;
+    align-content: flex-end;
+  }
+  .mid {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+  }
+  .fwork {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+  }
+  .mids {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+  }
+  .mid12 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .mid1 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+  .mid a {
+    display: none;
+  }
+  .midd {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+  }
+
+  .Vibrant {
+    display: none;
+  }
+  .Days {
+    display: none;
+  }
+  .fwork {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+  }
+  .designing {
+    padding-bottom: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+  }
+  .pp {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+  }
+  .img {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+  }
+  .I{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+  }
+}
+@media (min-width: 900px) {
+  .bar {
+    display: none;
+  }
+}
