@@ -119,6 +119,12 @@ button {
   border-radius: 8%;
   font-weight: bold;
 }
+.row{
+  display: flex;
+  flex-direction: row;
+  gap: 18px;
+}
+
 @media (max-width: 900px) {
   .top {
     visibility: hidden;
